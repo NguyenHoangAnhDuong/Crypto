@@ -1,0 +1,67 @@
+@import url(../reset.css);
+@import url(../beginStyle.css);
+@import url(../color.css);
+
+.Welcome {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.contentWelcome {
+    display: flex;
+    height: 100vh;
+    width: 50%;
+    flex: 1 ;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 100px;
+    row-gap: 30px;
+    
+    
+
+}
+.contentBiggest{
+    font-size: 80px;
+    font-weight: bold;
+}
+.nameWeb{
+    color: var(--primary-color);
+
+}
+.introWelcome{
+    font-size: 20px;
+}
+.btnCreate{
+    padding: 15px 35px;
+    font-size: 22px;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+
+}
+.btnCreate:hover{
+    background-color: var(--second-color);
+}
+
+.imageWelcome {
+    height: 1200px;
+    width: 1200px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    position: absolute;
+    top: -51%;
+    bottom: 0;
+    right: -26%;
+    border-radius: 10%
+}
+.backgroudImageWelcome{
+    transform: rotate(-43deg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 314px;
+}

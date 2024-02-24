@@ -1,0 +1,21 @@
+@import url(../reset.css);
+@import url(../beginStyle.css);
+@import url(../color.css); 
+.panelContact{
+    width: 100%;
+    background-color: black;
+    padding: 20px 30px 20px 0px;
+    display: flex;
+    justify-content: right;
+}
+.buttonContact{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+
+}
+.buttonContact:hover{
+    cursor: pointer;
+    background-color: var(--second-color);
+}
