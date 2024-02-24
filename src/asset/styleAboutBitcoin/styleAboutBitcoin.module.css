@@ -1,0 +1,45 @@
+@import url(../reset.css);
+@import url(../beginStyle.css);
+@import url(../color.css); 
+.AboutBitcoin{
+    background-color: var(--second-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:120px 100px;
+    gap: 100px;
+}
+.cotentPanel{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 40px;
+    color: white;
+}
+.Title_1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.Title_2{
+    color: var(--primary-color);
+}
+.Content{
+    font-size: 20px;
+    line-height: 1.6;
+    
+}
+.btnStarted{
+    padding: 15px 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid  var(--primary-color);
+    color: var(--primary-color);
+}
+.btnStarted:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+.Image_Bitcoin{
+    border-radius: 5% 0% 5% 0% / 5% 0% 5% 0% ;
+    border: 3px solid var(--primary-color);
+}
