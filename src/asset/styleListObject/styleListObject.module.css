@@ -1,0 +1,54 @@
+@import url(../reset.css);
+@import url(../beginStyle.css);
+@import url(../color.css); 
+.panelListObject{
+    padding: 10% 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--second-color);
+    justify-content: center;
+    align-items: center;
+}
+.Title{
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.8;
+}
+.contentOfTitle{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.6;
+}
+.objectPanel{
+    padding-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 200px;
+    justify-content: space-between;
+}
+.cardObject{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    padding: 0px 45px;
+}
+.iconCardObj{
+    color: var(--primary-color);
+    font-size: 100px;
+}
+.titleCard{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+.contentCard{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+}
