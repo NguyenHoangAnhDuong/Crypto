@@ -1,0 +1,7 @@
+.panelResult{
+    display: flex;
+    column-gap: 100px;
+}
+.panelListObject{
+    gap: 100px;
+}
